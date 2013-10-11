@@ -1,9 +1,9 @@
 require "vagrant-environment/version"
 
-module Environment
+module VagrantEnvironment
 
   class Plugin < Vagrant.plugin('2')
-    name 'Environment'
+    name 'VagrantEnvironment'
 
     command 'dump-environment' do
       require 'vagrant-environment/dump-environment'

@@ -1,6 +1,6 @@
 require 'yaml'
 
-module Environment
+module VagrantEnvironment
 
   class DumpMachine < Vagrant.plugin(2, :command)
     def execute

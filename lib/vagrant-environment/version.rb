@@ -1,3 +1,3 @@
-module Environment
-  VERSION = "0.0.5"
+module VagrantEnvironment
+  VERSION = "0.0.6"
 end

@@ -5,7 +5,7 @@ require 'vagrant-environment/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-environment"
-  spec.version       = Environment::VERSION
+  spec.version       = VagrantEnvironment::VERSION
   spec.authors       = ["Brian Pitts"]
   spec.email         = ["brian@polibyte.com"]
   spec.description   = %q{Pretty print your vagrant environment}

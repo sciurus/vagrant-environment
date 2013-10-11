@@ -1,6 +1,6 @@
 require 'yaml'
 
-module Environment
+module VagrantEnvironment
 
   class DumpEnvironment < Vagrant.plugin(2, :command)
 
