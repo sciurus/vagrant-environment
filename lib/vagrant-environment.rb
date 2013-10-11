@@ -1,4 +1,4 @@
-require "environment/version"
+require "vagrant-environment/version"
 
 module Environment
 
@@ -6,12 +6,12 @@ module Environment
     name 'Environment'
 
     command 'dump-environment' do
-      require 'environment/dump-environment'
+      require 'vagrant-environment/dump-environment'
       DumpEnvironment
     end
 
     command 'dump-machines' do
-      require 'environment/dump-machines'
+      require 'vagrant-environment/dump-machines'
       DumpMachines
     end
 

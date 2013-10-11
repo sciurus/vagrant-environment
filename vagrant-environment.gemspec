@@ -1,14 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'environment/version'
+require 'vagrant-environment/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "environment"
+  spec.name          = "vagrant-environment"
   spec.version       = Environment::VERSION
   spec.authors       = ["Brian Pitts"]
   spec.email         = ["brian@polibyte.com"]
-  spec.description   = %q{Pertty print your vagrant environment}
+  spec.description   = %q{Pretty print your vagrant environment}
   spec.summary       = spec.description
   spec.homepage      = ""
   spec.license       = "MIT"
