@@ -10,9 +10,9 @@ module Environment
       DumpEnvironment
     end
 
-    command 'dump-machines' do
-      require 'vagrant-environment/dump-machines'
-      DumpMachines
+    command 'dump-machine' do
+      require 'vagrant-environment/dump-machine'
+      DumpMachine
     end
 
   end
