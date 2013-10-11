@@ -1,24 +1,16 @@
-# Environment
+# Vagrant-Environment
 
-TODO: Write a gem description
+A vagrant plugin to pretty-print your vagrant environment
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'environment'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install environment
+    rake build
+    vagrant plugin install pkg/*
 
 ## Usage
 
-TODO: Write usage instructions here
+    vagrant dump-environment
+    vagrant dump-machine [vm-name]
 
 ## Contributing
 
