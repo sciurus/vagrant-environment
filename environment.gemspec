@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Environment::VERSION
   spec.authors       = ["Brian Pitts"]
   spec.email         = ["brian@polibyte.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Pertty print your vagrant environment}
+  spec.summary       = spec.description
   spec.homepage      = ""
   spec.license       = "MIT"
 
